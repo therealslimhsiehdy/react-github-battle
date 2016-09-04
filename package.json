@@ -1,0 +1,34 @@
+{
+  "name": "react-fundamentals-curriculum",
+  "version": "1.0.0",
+  "description": "Curriculum for React.js Program's React Fundamentals course.",
+  "main": "index.js",
+  "scripts": {
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactjsProgram/react-fundamentals-curriculum.git"
+  },
+  "author": "Tyler McGinnis <tylermcginnis33@gmail.com> (http://tylermcginnis.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReactjsProgram/react-fundamentals-curriculum/issues"
+  },
+  "homepage": "https://github.com/ReactjsProgram/react-fundamentals-curriculum#readme",
+  "dependencies": {
+    "axios": "^0.12.0",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-router": "^2.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-react": "^6.3.13",
+    "html-webpack-plugin": "^2.7.1",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
